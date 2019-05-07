@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.911 sec <<< FAILURE!
+SignUp Functionality(User Sign In to OSME portal)  Time elapsed: 0.077 sec  <<< ERROR!
+java.lang.NullPointerException
+	at uk.os.utils.BrowserFactory.getRemoteDriver(BrowserFactory.java:52)
+	at uk.os.utils.SeleniumBaseFile.sharedDriver(SeleniumBaseFile.java:38)
+	at uk.os.stepdefinations.CommonStepDef.selenium_is_required(CommonStepDef.java:50)
+	at ✽.selenium is required(src/test/resources/Featurefiles/1.0.2.SignIn.feature:5)
+
